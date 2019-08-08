@@ -11,5 +11,11 @@ def generated_key(size):
                 password += random.choice(caracters)
         return password
 
-print generated_key(18) 
-
+if __name__ == "__main__": 
+        
+    password = generated_key(12) 
+    print(password)
+    
+    with open(password, "w+") as file:
+        file.write(password)
+    pass

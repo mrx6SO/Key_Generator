@@ -3,11 +3,6 @@
 
 ## function to generate key 
 
-## As soon as the files are encrypted ## 
-
-## help with the bugs i'll apreciatte! 
-
-
 import sys, time, string, random
 def generated_key(size):
         caracters = '~{}^=+()@#$%*¨\/[]&ABCDEFGHIJKLMNOPQRSTUVXZY0123456789abcdefghijlmnopqrstuwvxz'
